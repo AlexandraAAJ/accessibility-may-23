@@ -1,135 +1,63 @@
-# Template for setting up reproducible projects
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+# Accessibility Guidance for Events (Hybrid or in-person)
 
-*A The Turing Way inspired project to enable reproducibility in data science.*
+:information_source: How to work on this document.
 
-## About this Repository
+This is a **collaborative document** where multiple people can **add, review or update best practices** to offer **accessible events**. 
 
-This is a template for setting-up a research or data science project online, such as on GitHub.
-This repository includes files and directories recommended for enabling reproducibility and collaboration in a project, as well as sharing of research objects.
+This document aims to propose guidelines to prepare accessible events, either online or in-person. 
 
-This repository follows the recommendations and guidance provided in *[The Turing Way](https://the-turing-way.netlify.app/welcome)* handbook to data science.
-When reusing this repository, please update information on your README page with information about your project.
+### Accessibility
 
-<!--If reusing this repository, delete this section -->
-## About README
+Accessibility and inclusion should be a key consideration in any event design. Participants with visible or invisible disabilities should be welcome and materials should be available in the appropriate formats to make them accessible to all. 
 
-On an online repository, such as GitHub, the project overview page is named ‘README’ which is equivalent to the main page of a website.
-README page should describe the project -- what is the purpose of the project, who is involved, how to collaborate and where to find key resources.
 
-To learn more about how to create a README.md file, please read the [Landing Page - README File](https://the-turing-way.netlify.app/project-design/project-repo/project-repo-readme.html) chapter in The Turing Way Guide for Project Design.
 
-<!--If reusing this repository, delete this section -->
+### Best Practices for hosting inclusive  conferences
 
-## Repo Structure
+1. **Event design**: 
+- Clearly emphasize in all your event planning documents and tasks the importance of accessibility and inclusion. 
+- Make it clear to speakers, suppliers and attendants and provide them with relevant materials to use/follow during the event.
+- For international events: Consider scheduling activities in multiple time zones so that everyone in the world can watch at least part of the conference live, and provide a link to all recorded sessions so people can catch up on what they missed   
 
-Inspired by [Cookie Cutter Data Science](https://github.com/drivendata/cookiecutter-data-science)
+2. **In-person Events**: 
+- Make sure that the venue has accessible entrance, corridors, toilets, lifts for wheelchairs
+- Be mindful of sensory needs, provide quiet spaces, and make attendants aware if there will be loud noises, videos, etc. 
+- The sound system at the venue should have the audio induction loop system that can send signals directly to hearing aids. The availability of this system should be posted on a sign at the entrance to the room, along with specifications if only a certain part of the room is covered.
+- At meals and breaks, someone should be available to help blind and low vision people to navigate food and beverage choices. 
+- Provide a wide range of foods including gluten- and allergen-free, as well as vegetarian/vegan, options. Make ingredient lists available
+3. **Online and hybrid events**: 
+- Test the internet, cameras, light and have a backup plan in case the connection of the main host fails. Assign more than one host, two co-host.
+- Make materials available offline (slides, code and records) and allow the audience to access your materials before, during and after the conference.
+- Add captions to your video or provide a transcript of your talk so it’s accessible to people who are blind, deaf, hard-of-hearing, or have low-vision and may be using software such as screen readers. Always keep cations on. There may be times when you don't want to be recording, but people who are present  should still be able to benefit from the captions during that time.
+- Record the presentations and share them after the event. 
+- For hybrid events, encourage attendants to follow the conversation by email, or other platforms that allow interaction between people also attending online. 
 
-```
-├── LICENSE
-├── README.md          <- The top-level README for users of this project.
-├── CODE_OF_CONDUCT.md <- Guidelines for users and contributors of the project.
-├── CONTRIBUTING.md    <- Information on how to contribute to the project.
-├── data
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
-│
-├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-│
-├── models             <- Trained and serialized models, model predictions, or model summaries
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── project_management <- Meeting notes and other project planning resources
-│
-├── src                <- Source code for use in this project.
-│   │
-│   ├── data           <- Scripts to download or generate data
-│   │   └── make_dataset.py
-│   │
-│   ├── models         <- Scripts to train models and then use trained models to make
-│   │   │                 predictions
-│   │   ├── predict_model.py
-│   │   └── train_model.py
-│   │
-│   └── visualisation  <- Scripts to create exploratory and results oriented visualisations
-│       └── visualise.py
-└──
-```
+4. **Presentation slides, materials and images**: 
+- Use an accessible slide format. For example, markdown with alt text is more screen reader friendly than PowerPoint, and PDFs of slides are often very difficult to read
+- Make sure all materials have legible text with distinguishable font and font size, so people can follow the conference from a small screen. For example, use Arial at least a 28 point size. Also, resize images so they can be viewed even on a small screen.
+- Make materials available prior to the event 
+- Do a control review of all presentations to make sure they are accessible. *(Ask Liz which systems she recommends)*
+- Do not forget to include alt-text to all your figures and images
 
-**Maintainers**
+5. **Presenters and Speakers**: 
+- During your talk, try to speak as clearly as possible and leave your mouth visible to allow people to read your lips if necessary
+- When possible, sign language and/or simoultaneuos translation should be included
+- Presenters and speakers should use accessible language and graphics, pictures, videos, and memes should be described audibly, if they don't have Alt text
+- To help presenters, the organisers should provide a template that covers all our technical accessibility considerations. Templates To be done.
 
-This repository is jointly developed and maintained by Open Research Community Building (led by Dr. Malvika Sharan) and Research Application Management (led by Dr. Aida Mehonic) teams under the Tools, Practices and Systems Research Programme at The Alan Turing Institute.
+6. **Feedback**: 
+- Always include a set of questions about accessibility in your feedback forms. 
+- Any recommendations or new practices, should be added here. 
 
-*Please create [an issue](../../issues) to share references or ideas related to the development of this project.*
+### Next actions
+1. Finish the guide for accessibility at The Turing Way book : https://github.com/alan-turing-institute/the-turing-way/blob/accessibility-guide/book/website/accessibility-guide/accessibility-guide.md
+2. Develop a Checklist
+3. Develop templates
 
-🎯 Roadmap
----
 
-### Checklist for setting an online repository 
 
-- [ ] Add a README file
-- [ ] Add a [CONTRIBUTING](CONTRIBUTING.md) file
-- [ ] Add a [LICENSE](LICENSE.md)
-- [ ] Add a [Code of Conduct](CODE_OF_CONDUCT.md)
-- [ ] Install [all-contributors](https://allcontributors.org/) bot
-- [ ] .gitignore file (choose from a template)
-- [ ] Issue templates
-    - [ ] Optionally Install [Welcome/behavior](https://github.com/behaviorbot/welcome) bot (see The Turing Way [config](https://github.com/alan-turing-institute/the-turing-way/blob/main/.github/config.yml))
-- [ ] Create a directory with files for project management (meetings, report, proposals)
-- [ ] Create a directory with files for communications
-- [ ] Create a directory for research analysis
-- [ ] Create a directory for research results/outcome to share (?)
-- [ ] Create a directory for ethics approval and project policies
-- [ ] Create a directory with files for stakeholders info and nature of engagement
-- [ ] Connect repo with Zenodo
-- [ ] Add cff file for citation
-- [ ] Add badges
-
-📫 Contact
----
-
-For any organisation related queries or concerns, you can directly reach out to Malvika Sharan by emailing [msharan@turing.ac.uk](mailto:msharan@turing.ac.uk).
-
-♻️ License
----
-
-This work is licensed under the MIT license (code) and Creative Commons Attribution 4.0 International license (for documentation).
-You are free to share and adapt the material for any purpose, even commercially,
-as long as you provide attribution (give appropriate credit, provide a link to the license,
-and indicate if changes were made) in any reasonable manner, but not in any way that suggests the
-licensor endorses you or your use, and with no additional restrictions.
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center"><a href="http://malvikasharan.github.io/"><img src="https://avatars.githubusercontent.com/u/5370471?v=4?s=100" width="100px;" alt="Malvika Sharan"/><br /><sub><b>Malvika Sharan</b></sub></a><br /><a href="#ideas-malvikasharan" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-malvikasharan" title="Content">🖋</a></td>
-      <td align="center"><a href="https://github.com/EKaroune"><img src="https://avatars.githubusercontent.com/u/58147174?v=4?s=100" width="100px;" alt="Emma Karoune"/><br /><sub><b>Emma Karoune</b></sub></a><br /><a href="#ideas-EKaroune" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/reproducible-project-template/commits?author=EKaroune" title="Documentation">📖</a></td>
-      <td align="center"><a href="http://www.aleesteele.com"><img src="https://avatars.githubusercontent.com/u/18509789?v=4?s=100" width="100px;" alt="Anne Lee Steele"/><br /><sub><b>Anne Lee Steele</b></sub></a><br /><a href="#ideas-aleesteele" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/reproducible-project-template/commits?author=aleesteele" title="Documentation">📖</a></td>
-      <td align="center"><a href="https://github.com/vhellon"><img src="https://avatars.githubusercontent.com/u/93144591?v=4?s=100" width="100px;" alt="Vicky Hellon"/><br /><sub><b>Vicky Hellon</b></sub></a><br /><a href="#ideas-vhellon" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/alan-turing-institute/reproducible-project-template/commits?author=vhellon" title="Documentation">📖</a></td>
-      <td align="center"><a href="http://jending.com"><img src="https://avatars.githubusercontent.com/u/5104098?v=4?s=100" width="100px;" alt="Jennifer Ding"/><br /><sub><b>Jennifer Ding</b></sub></a><br /><a href="#content-dingaaling" title="Content">🖋</a> <a href="https://github.com/alan-turing-institute/reproducible-project-template/commits?author=dingaaling" title="Documentation">📖</a> <a href="#ideas-dingaaling" title="Ideas, Planning, & Feedback">🤔</a></td>
-      <td align="center"><a href="http://lappland.io"><img src="https://avatars.githubusercontent.com/u/51458?v=4?s=100" width="100px;" alt="Hilmar Lapp"/><br /><sub><b>Hilmar Lapp</b></sub></a><br /><a href="https://github.com/alan-turing-institute/reproducible-project-template/issues?q=author%3Ahlapp" title="Bug reports">🐛</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+#### References:
+1. [Turing Institute: Equality, diversity and inclusion strategy 2021-2024](https://www.turing.ac.uk/sites/default/files/2022-01/edi-strategy-report_v1.2_accessible_updated_02.12.2021.pdf#:~:text=The%20Institute%20has%20defined%20a%20set%20of%20values,values%3A%20trust%2C%20inclusivity%2C%20respect%2C%20leadership%2C%20transparency%2C%20and%20integrity).
+2. [R Use - Preparing for an accesible online conference](https://user2021.r-project.org/blog/2021/02/17/preparing-for-an-accessible-conference/)
+3. [R use - Making accessible presentations at user! 2021: The story behind the scenes](https://user2021.r-project.org/blog/2021/12/07/accessibility_awards_interview/)
+4. [Ten simple rules to host an inclusive conference](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010164)
